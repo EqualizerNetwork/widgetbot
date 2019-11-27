@@ -1,8 +1,8 @@
 import { Define, Load } from './helpers'
-import BaseTranslation from './translations/fr'
+import BaseTranslation from './translations/en'
 
 // Import the translations from ./translations/
-export const locales = Define(['fr'])
+export const locales = Define(['en'])
 
 export type Locales = (typeof locales)[number]
 
