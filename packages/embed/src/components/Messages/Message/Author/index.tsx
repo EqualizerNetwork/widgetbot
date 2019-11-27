@@ -61,28 +61,6 @@ export default connect<Props>()
             toggle({ open: true, type: 'developer', data })
           }
 
-          if (id === '294916911194570754') {
-            // samdd
-            return (
-              <Verified
-                href="https://samdd.me/"
-                title="Developer"
-                onClick={modal('samdd')}
-              />
-            )
-          }
-
-          if (id === '111783814740594688') {
-            // Voakie
-            return (
-              <Verified
-                href="https://voakie.com/"
-                title="Developer"
-                onClick={modal('voakie')}
-              />
-            )
-          }
-
           return null
         }
       }
