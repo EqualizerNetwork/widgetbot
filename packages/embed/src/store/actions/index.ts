@@ -76,7 +76,7 @@ export function select({
  */
 export function routed({ state, props, storage }: Context<RawUrl>) {
   state.url = {
-    lang: 'en'
+    lang: 'fr'
   }
 
   if (props.width && !isNaN(+props.width)) {
