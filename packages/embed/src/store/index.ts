@@ -51,7 +51,7 @@ const state: State = {
     type: null
   },
 
-  translation: translations.en
+  translation: translations.fr
 }
 
 export const router = Router({
