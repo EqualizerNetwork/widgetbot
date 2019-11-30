@@ -169,7 +169,7 @@ export function parseText(msg: message) {
   return (
     <React.Fragment>
       {msg.content && emoji(mentions(parse(msg.content), msg.mentions))}
-      {msg.editedAt && <Edited className="edited">{`(edited)`}</Edited>}
+      {msg.editedAt && <Edited className="edited">{`(modifié)`}</Edited>}
       {attachment(msg)}
       {embed(msg)}
     </React.Fragment>
