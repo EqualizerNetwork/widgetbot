@@ -1,5 +1,6 @@
 import { connect } from 'fluent'
 import * as Moment from 'moment'
+import 'moment/locale/fr'
 import * as React from 'react'
 
 import { Author } from '../../../../types/message'
