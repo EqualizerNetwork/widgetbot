@@ -12,6 +12,8 @@ interface Props {
   time: number
 }
 
+Moment.locale('fr')
+
 export const Timestamp = ({ time }: { time: number }) => (
   <Time className="time">{Moment(time).calendar()}</Time>
 )
