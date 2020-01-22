@@ -50,7 +50,7 @@ export default connect()
                   target="_blank"
                   onClick={this.close.bind(this)}
                 >
-                  Open original
+                  Ouvrir l'original
                 </OpenImage>
               </React.Fragment>
             )
@@ -65,7 +65,7 @@ export default connect()
                   target="_blank"
                   onClick={this.close.bind(this)}
                 >
-                  Open original
+                  Ouvrir l'original
                 </OpenVideo>
               </React.Fragment>
             )
