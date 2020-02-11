@@ -17,8 +17,8 @@ export default connect()
         {server.memberCount && (
           <Count
             title={`${server.memberCount} ${
-              plural ? 'members' : 'member'
-            } in this server`}
+              plural ? 'membres' : 'membre'
+            } dans ce serveur`}
             className="count"
           >
             {server.memberCount}
