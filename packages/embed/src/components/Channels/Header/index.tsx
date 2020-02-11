@@ -13,6 +13,7 @@ export default connect()
     return (
       <Root className="header">
         {server.icon && <Icon src={server.icon} className="icon" />}
+			{server.icon}
         {server.name && <Name className="name">{server.name}</Name>}
         {server.memberCount && (
           <Count
