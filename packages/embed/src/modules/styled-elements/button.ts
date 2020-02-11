@@ -71,7 +71,7 @@ const Button = styled.button<Props>`
             font-size: 15px;
             height: 28px;
             line-height: 28px;
-            min-width: 75px;
+            min-width: 100px;
             padding: 0 15px;
           `};
 
