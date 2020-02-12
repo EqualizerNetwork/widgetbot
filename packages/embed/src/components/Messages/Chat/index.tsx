@@ -59,7 +59,7 @@ export default connect()
                   onSubmit={this.onSubmit.bind(this)}
                   innerRef={ref => (input = ref)}
                   innerProps={{
-                    placeholder: channel ? `Message #${channel.name}` : null
+                    placeholder: channel ? `Envoyer un message à #${channel.name}` : null
                   }}
                 />
                 {/* <Emoji /> */}
